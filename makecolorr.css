@@ -1,0 +1,33 @@
+.content{
+    width:  1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+
+}
+.ima{
+    width: 300px;
+    float:left;
+    margin-right: 1px;
+    height: auto;      
+}
+
+.nd{
+    width:650px;
+    float: right;
+    padding: 20px;
+    background-color: aquamarine;
+    height: 300px;
+    box-sizing: border-box ;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.bt{
+    background-color: greenyellow;
+    border: 1px solid gold;
+}
+p::selection{
+    color: blue;
+}
